@@ -11,7 +11,7 @@ npm install @bigorange/mock-server
 ```
 ## Example
 ##### response content
-Note the 'mock' folder and server file should be in the same level.
+Note the `mock` folder and server file should be in the same level.
 
 ```js
 // ./mock/data.mock.js
