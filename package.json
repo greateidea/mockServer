@@ -2,8 +2,11 @@
   "name": "@bigorange/mock-server",
   "version": "1.0.0",
   "description": "a very simple mock server of nodeJs",
-  "main": "index.js",
-  "module": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "node index",
     "test": "node test",
