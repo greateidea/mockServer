@@ -67,7 +67,7 @@ mockServer.attachMock(app, option);
 
 option: {
     port: number, // the server listening port, be invalid in createMiddleware and attachMock
-    searchPath: string, // the search path of response content, defaut './mock'
+    searchPath: string, // the search path of response content, default './mock'
     matchRegExp: RegExp, // the suffix of file export response content, default '.mock.js'
 }
 
