@@ -1,7 +1,7 @@
 # mockServer
 a very simple mock server of nodeJs.
 
-it will search the response content exported by the file named *.mock.js in './mock',
+it will search the response content exported by the file named `*.mock.js` in `./mock`,
 you can change this behavior by pass a option.
 
 ## Installing
