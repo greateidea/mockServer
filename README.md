@@ -10,7 +10,7 @@ you can change this behavior by pass a option.
 npm install @bigorange/mock-server
 ```
 ## Example
-#### response content
+### response content
 Note the `mock` folder and server file should be in the same level.
 
 ```js
@@ -24,13 +24,13 @@ module.exports = {
 ```
 
 
-#### start a mock server directly
+### start a mock server directly
 ```js
 const server = require('@bigorange/mock-server');
 server.boostrap();
 ```
 
-#### use it as a middleware
+### use it as a middleware
 ```js
 const express = require('express');
 const mockServer = require('@bigorange/mock-server');
@@ -45,7 +45,7 @@ app.listen(port, () => {
 });
 ```
 
-#### add mock feature if you are alreary use express
+### add mock feature if you are alreary use express
 ```js
 const express = require('express');
 const mockServer = require('@bigorange/mock-server');
@@ -59,7 +59,7 @@ app.listen(port, () => {
 });
 ```
 
-#### option
+### option
 ```js
 server.boostrap(option);
 app.use(mockServer.createMiddleware(app, option));
