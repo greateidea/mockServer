@@ -30,7 +30,7 @@ const server = require('@bigorange/mock-server');
 server.boostrap();
 ```
 
-### use it as a middleware
+### use it as a express middleware
 ```js
 const express = require('express');
 const mockServer = require('@bigorange/mock-server');
