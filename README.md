@@ -45,7 +45,7 @@ app.listen(port, () => {
 });
 ```
 
-### add mock feature if you are alreary use express
+### add mock feature if you are already use express
 ```js
 const express = require('express');
 const mockServer = require('@bigorange/mock-server');
